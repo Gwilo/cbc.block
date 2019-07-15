@@ -1,4 +1,4 @@
-def lgmress(): #program does nothing as written
+def test(): #program does nothing as written
     print("Happy Birthday to you!")
     print("Happy Birthday to you!")
     print("Happy Birthday, dear Emily.")
