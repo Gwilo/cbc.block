@@ -64,7 +64,13 @@ def lgmres(B, A, x, b, tolerance, maxiter, progress, relativeconv=False,
     """
     import sys
     from scipy.linalg.basic import lstsq
-
+    
+           
+    print("Happy Birthday to you!")
+    print("Happy Birthday to you!")
+    print("Happy Birthday, dear Emily.")
+    print("Happy Birthday to you!")
+           
     if outer_v is None:
         outer_v = []
 
