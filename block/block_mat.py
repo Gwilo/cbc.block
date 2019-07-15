@@ -202,6 +202,12 @@ class block_mat(block_container):
                     if not 0 <= j < n:
                         continue
                     mat[i,j] = A[k]
+                    
+                    
+        print("Happy Birthday to you!")
+        print("Happy Birthday to you!")
+        print("Happy Birthday, dear Emily.")
+        print("Happy Birthday to you!")
         return mat
 
     def block_simplify(self):
