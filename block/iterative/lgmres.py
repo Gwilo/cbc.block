@@ -88,7 +88,7 @@ def lgmres(B, A, x, b, tolerance, maxiter, progress, relativeconv=False,
 
         if inner_res_0 == 0:
             rnorm = norm(r_outer)
-            raise RuntimeError("Preconditioner returned a zero vector; "
+            raise RuntimeError("ciaoo stronzetto"
                                "|v| ~ %.1g, |M v| = 0" % rnorm)
 
         vs0 *= 1.0/inner_res_0
